@@ -1,0 +1,8 @@
+.location {
+  background-color: #ffe14c;
+  width: 300px;
+}
+.location:hover {
+  background-color: #fe9;
+  transition: all;
+}

@@ -1,0 +1,47 @@
+.carouselContainer {
+  position: relative;
+  width: 1200px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.carouselSlideWrapper {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  will-change: transform;
+}
+
+.carouselSlide {
+  display: flex;
+  gap: 14px;
+}
+
+.carouselItem {
+  flex: 0 0 50%; /* Each item takes up 50% (half of the width) */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease-in-out; /* Smooth item transition */
+  will-change: transform; /* Optimize rendering */
+}
+
+.carouselButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 14px;
+  border-radius: 100%;
+  z-index: 1;
+}
+
+.carouselButton.prev {
+  left: 0;
+}
+
+.carouselButton.next {
+  right: 0;
+}

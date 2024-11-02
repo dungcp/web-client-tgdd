@@ -1,0 +1,62 @@
+.iconLogo {
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 24px;
+  width: 80px;
+  vertical-align: middle;
+  background-size: 250px 200px;
+  border-radius: 8px;
+  background-image: url(https://cdnv2.tgdd.vn/webmwg/2024/ContentMwg/images/DMX/Global/Desktop/Logo-webmoi-min.png);
+}
+/* Specific background positions for each logo */
+.iconLogoTopzone {
+  background-position: 0px -58px;
+}
+
+.iconLogoDienmayxanh {
+  background-position: -85px 0px;
+}
+
+.iconLogoBachhoaxanh {
+  background-position: -170px 0px;
+}
+
+.iconLogoAnkhang {
+  background-position: -85px -90px;
+}
+
+.iconLogoAvakid {
+  background-position: -85px -120px;
+}
+
+.iconLogoVieclam {
+  background-position: 0px -120px;
+}
+
+.iconLogoErablue {
+  background-position: -170px -120px;
+}
+
+.iconCertify {
+  background-image: url(https://cdnv2.tgdd.vn/webmwg/2024/ContentMwg/images/homev2/desk/icon_common@2x.png?v=2);
+  background-repeat: no-repeat;
+  display: inline-block;
+  line-height: 30px;
+  vertical-align: middle;
+  background-size: 300px 200px;
+}
+.iconCongthuong {
+  background-position: -200px -30px;
+  height: 24px;
+  width: 79px;
+}
+.iconKhieunai {
+  background-position: -250px 0px;
+  height: 25px;
+  width: 25px;
+}
+.iconProtected {
+  background-position: -80px -60px;
+  height: 24px;
+  width: 122px;
+}
